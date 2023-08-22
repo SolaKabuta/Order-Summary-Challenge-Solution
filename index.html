@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="center">
+    <div
+      class="text-center max-w-sm bg-white border-gray-200 rounded-lg shadow-xl shadow-slate-300 dark:bg-gray-800 dark:border-gray-700 dark:shadow-blue-800"
+    >
+      <a href="#">
+        <img class="rounded-t-lg" src="images/illustration-hero.svg" alt="" />
+      </a>
+      <div class="p-5">
+        <a href="#">
+          <h5
+            class="hover:underline mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            <!-- TITLE -->
+            Order Summary
+          </h5>
+        </a>
+        <!-- PARAGRAPHE 1 -->
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <!-- WIDGET-1 -->
+        <div
+          class="bx1 ml-2 rounded-md w-80 h-20 px-5 py-2.5 mr-2 mb-5 relative hover:shadow dark:hover:shadow-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700"
+        >
+          <img
+            class="absolute mt-2 w-10 h-10 rounded-full"
+            src="./images/icon-music.svg"
+            alt="Rounded avatar"
+          />
+          <div class="pr-20 pt-1">
+            <p class="flex-col">
+              <span class="font-bold dark:text-white">Annual Plan</span>
+              <br />
+              <span class="text-gray-400 dark:text-white hover:underline"
+                >$59.99/year</span
+              >
+            </p>
+          </div>
+          <!-- BTN-1 CHANGE -->
+          <div class="absolute right-0 top-1/2 transform -translate-y-1/2 p-5">
+            <button
+              type="button"
+              class="hover:underline font-bold text-purple-700 hover:text-purple-950 border border-none focus:outline-none rounded-lg text-sm text-center dark:border-purple-400 dark:text-purple-400"
+            >
+              Change
+            </button>
+          </div>
+        </div>
+        <!-- BTN-2 PROCEED -->
+        <button
+          type="button"
+          class="btn-2 shadow-xl shadow-slate-300 text-white bg-blue-700 hover:bg-blue-800 w-80 font-bold hover:shadow-blue-200 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:shadow-gray-600 dark:hover:shadow-blue-800"
+        >
+          Proceed to Payment
+        </button>
+        <!-- BTN-3 CANCEL -->
+        <button
+          type="button"
+          class="h-12 text-gray-500 hover:underline hover:text-blue-700 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white"
+        >
+          Cancel Order
+        </button>
+      </div>
+    </div>
+    <div class="attribution absolute ml-8 mt-80">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Shhaannkkss</a>.
+    </div>
+  </body>
+</html>
