@@ -75,5 +75,5 @@ I need to work on flex boxes (unbelievable, right?) sometimes I get it, and some
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Shhaannkkss)
+- Frontend Mentor - [@Shhaankkss](https://www.frontendmentor.io/profile/Shhaannkkss)
 - Twitter - [@KamKabu](https://twitter.com/KamKabu)
