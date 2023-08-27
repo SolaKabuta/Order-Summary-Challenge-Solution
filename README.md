@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-challenge-using-tailwind-css-and-flowbite-BWRxuGC963](https://your-solution-url.com)
 - Live Site URL: https://order-summary-challenge-solution.pages.dev/
 
 ## My process
